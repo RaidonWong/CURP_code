@@ -1,0 +1,11 @@
+accelerate
+numpy
+scikit-learn
+torch
+tqdm
+transformers
+
+# Optional evaluation dependencies:
+# bert-score
+# nltk
+# rouge-score

@@ -1,0 +1,36 @@
+# Local configuration
+.env
+config.env
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Models, datasets, and generated artifacts
+data/
+checkpoints/
+stage1_weight*/
+stage2_weight*/
+results/
+logs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.arrow
+*.parquet
+*.jsonl
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
